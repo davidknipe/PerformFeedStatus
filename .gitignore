@@ -137,6 +137,7 @@ publish/
 
 # NuGet Packages Directory
 packages/*
+Solution File/packages/*
 !packages/repositories.config
 
 # Windows Azure Build Output
