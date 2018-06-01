@@ -1,0 +1,71 @@
+﻿@using EPiServer
+@using EPiServer.Framework.Web.Mvc.Html
+@using EPiServer.Framework.Web.Resources
+@model PerformFeedStatus.Models.ViewModels.FeedStatusViewModel
+@{
+    Layout = null;
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Episerver Perform Feed Status</title>
+
+    @Html.Raw(ClientResources.RenderResources("ShellCore"))
+    @Html.Raw(ClientResources.RenderResources("ShellWidgets"))
+    @Html.Raw(ClientResources.RenderResources("ShellCoreLightTheme"))
+    @Html.Raw(ClientResources.RenderResources("ShellWidgetsLightTheme"))
+    @Html.Raw(ClientResources.RenderResources("Navigation"))
+    @Html.CssLink(
+        UriSupport.ResolveUrlFromUIBySettings("App_Themes/Default/Styles/system.css"))
+    @Html.CssLink(
+        UriSupport.ResolveUrlFromUIBySettings("App_Themes/Default/Styles/ToolButton.css"))
+</head>
+<body>
+
+<div class="epi-contentContainer epi-padding">
+
+    <div class="epi-contentArea">
+        <h1 class="EP-prefix">
+            Episerver Perform Feed status
+        </h1>
+        <p class="EP-systemInfo">Display feed export tokens and view the feed files.</p>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ConfirmationMessage))
+    {
+        <div class="hidden EP-systemMessage" style="display: block;">
+            <ul>
+                <li id="completedState" style="display: list-item;">
+                    @Model.ConfirmationMessage
+                </li>
+            </ul>
+        </div>
+    }
+    else
+    {
+        <table class="epi-default" cellspacing="0" style="border-style: None; border-collapse: collapse;">
+            <tbody>
+            <tr>
+                <th align="left" scope="col">Token Id</th>
+                <th align="left" scope="col">Expires</th>
+                <th align="left" scope="col">Feed File</th>
+            </tr>
+            @foreach (var feedItem in Model.FeedTokens)
+            {
+                <tr>
+                    <td>@feedItem.Id.ToString()</td>
+                    <td align="left">
+                        @feedItem.Expires.ToLongDateString()
+                    </td>
+                    <td align="left">
+                        <a href="@feedItem.BlobUrl">Download</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+
+    }
+
+</div>
+</body>
+</html>

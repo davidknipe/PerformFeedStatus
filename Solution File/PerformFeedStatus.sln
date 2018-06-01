@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{42BC78C2-54AC-47C1-B782-D51084505C9A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Nuget\pack.bat = ..\Nuget\pack.bat
+		..\Nuget\Package\PerformFeedStatus.nuspec = ..\Nuget\Package\PerformFeedStatus.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformFeedStatus", "..\PerformFeedStatus\PerformFeedStatus.csproj", "{CB38B61D-073F-4DFD-9AB2-AFE3BC04AA81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB38B61D-073F-4DFD-9AB2-AFE3BC04AA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB38B61D-073F-4DFD-9AB2-AFE3BC04AA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB38B61D-073F-4DFD-9AB2-AFE3BC04AA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB38B61D-073F-4DFD-9AB2-AFE3BC04AA81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EFE2710-9AFE-4927-B1A5-8C55284ED36A}
+	EndGlobalSection
+EndGlobal

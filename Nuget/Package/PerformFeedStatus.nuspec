@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>PeformFeedStatus</id>
+    <title>Episerver Perform Feed Status</title>
+    <description>Check the status of the Episerver Perform product feed</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <version>1.0.0</version>
+    <authors>David Knipe</authors>
+    <owners>David Knipe</owners>
+    <projectUrl>http://www.david-tec.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://www.david-tec.com/global/media/performfeed/perfomfeedicon.png</iconUrl>
+    <tags>Episerver Perform Personalisation Personalization</tags>
+    <dependencies>
+      <dependency id="EPiServer.Personalization.Commerce" version="[1.2, 2.0)" />
+    </dependencies>
+  </metadata>
+</package>
