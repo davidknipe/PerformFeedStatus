@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{42BC78C2
 	ProjectSection(SolutionItems) = preProject
 		..\Nuget\pack.bat = ..\Nuget\pack.bat
 		..\Nuget\Package\PerformFeedStatus.nuspec = ..\Nuget\Package\PerformFeedStatus.nuspec
+		..\Nuget\Package\readme.txt = ..\Nuget\Package\readme.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformFeedStatus", "..\PerformFeedStatus\PerformFeedStatus.csproj", "{CB38B61D-073F-4DFD-9AB2-AFE3BC04AA81}"
