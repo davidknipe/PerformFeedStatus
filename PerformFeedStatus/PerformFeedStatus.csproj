@@ -95,8 +95,8 @@
     <Reference Include="EPiServer.LinkAnalyzer, Version=11.11.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\Solution File\packages\EPiServer.CMS.Core.11.11.2\lib\net461\EPiServer.LinkAnalyzer.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Personalization.Commerce, Version=3.0.4.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\Solution File\packages\EPiServer.Personalization.Commerce.3.0.4\lib\net461\EPiServer.Personalization.Commerce.dll</HintPath>
+    <Reference Include="EPiServer.Personalization.Commerce, Version=3.0.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\Solution File\packages\EPiServer.Personalization.Commerce.3.0.0\lib\net461\EPiServer.Personalization.Commerce.dll</HintPath>
     </Reference>
     <Reference Include="EPiServer.Personalization.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\Solution File\packages\EPiServer.Personalization.Common.3.0.0\lib\net461\EPiServer.Personalization.Common.dll</HintPath>
@@ -107,8 +107,8 @@
     <Reference Include="EPiServer.Shell.UI, Version=11.19.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\Solution File\packages\EPiServer.CMS.UI.Core.11.19.1\lib\net461\EPiServer.Shell.UI.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Tracking.Commerce, Version=3.0.4.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\Solution File\packages\EPiServer.Tracking.Commerce.3.0.4\lib\net461\EPiServer.Tracking.Commerce.dll</HintPath>
+    <Reference Include="EPiServer.Tracking.Commerce, Version=3.0.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\Solution File\packages\EPiServer.Tracking.Commerce.3.0.0\lib\net461\EPiServer.Tracking.Commerce.dll</HintPath>
     </Reference>
     <Reference Include="EPiServer.Tracking.Core, Version=1.7.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\Solution File\packages\EPiServer.Tracking.Core.1.7.2\lib\net461\EPiServer.Tracking.Core.dll</HintPath>
